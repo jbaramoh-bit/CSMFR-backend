@@ -1,0 +1,45 @@
+{
+  "general": {
+    "organizationName": "CSMFR",
+    "currency": "€",
+    "timeZone": "Europe/Paris",
+    "defaultLanguage": "Français"
+  },
+  "contributions": {
+    "standardAnnualAmount": 240,
+    "standardMonthlyAmount": 20,
+    "contributionPeriodStart": "01-01",
+    "contributionPeriodEnd": "31-12",
+    "lateToleranceDays": 30
+  },
+  "notifications": {
+    "enableAutomaticReminders": true,
+    "reminderFrequencyDays": [
+      7,
+      14
+    ],
+    "reminderEmailTemplate": "Bonjour {memberName},\n\nCeci est un rappel amical concernant votre cotisation annuelle de {annualAmount} € pour l'année {year}.\n\nVotre soutien est essentiel pour notre organisation.\n\nMerci,\n{senderName}",
+    "senderEmail": "jbaramoh@gmail.com"
+  },
+  "security": {
+    "enableTwoFactorAuth": false,
+    "sessionDurationMinutes": 30,
+    "logLoginHistory": true
+  },
+  "integrations": {
+    "defaultExportFormat": "PDF",
+    "paymentGatewayApiKeys": {
+      "stripe": "",
+      "paypal": ""
+    },
+    "automaticBackupFrequency": "weekly"
+  },
+  "customization": {
+    "organizationLogoUrl": "CSMFR",
+    "themeColors": {
+      "primary": "#1976d2",
+      "secondary": "#dc004e"
+    },
+    "treasurerSignature": "Signature du Trésorier"
+  }
+}
